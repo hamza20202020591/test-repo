@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700&family=Playfair+Display:wght@400;700&display=swap');
+
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F5F5F5;
+  color: #212121;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  color: #212121;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.btn {
+  @apply px-4 py-2 rounded-default font-medium transition-colors duration-300;
+}
+
+.btn-primary {
+  @apply bg-primary text-white hover:bg-secondary;
+}
+
+.btn-secondary {
+  @apply bg-secondary text-white hover:bg-accent;
+}
