@@ -1,52 +1,26 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
-  theme: {
-    extend: {
-      fontFamily: {
-        'body': ['"Nunito"', 'sans-serif'],
-        'header': ['"Playfair Display"', 'serif'],
+    module.exports = {
+      content: [
+        "./index.html",
+        "./src/**/*.{js,ts,jsx,tsx}",
+      ],
+      theme: {
+        extend: {
+          fontFamily: {
+            'raleway': ['Raleway', 'sans-serif'],
+            'playfair-display': ['Playfair Display', 'serif'],
+            'josefin-sans': ['Josefin Sans', 'sans-serif'],
+          },
+          colors: {
+            'primary': '#1E3A8A', // Dark Blue
+            'secondary': '#3B82F6', // Light Blue
+            'accent': '#4CAF50', // Green
+            'neutral': '#1A202C', // Dark Gray/Black
+            'light': '#F7FAFC', // Light Gray
+            'header': '#2D3748', // Darker Gray for Header
+            'footer': '#2D3748', // Darker Gray for Footer
+          },
+        },
       },
-      colors: {
-        'primary': '#F44336',
-        'secondary': '#E91E63',
-        'accent': '#9C27B0',
-        'neutral': '#607D8B',
-        'light': '#F5F5F5',
-        'dark': '#212121',
-      },
-      spacing: {
-        'tiny': '0.25rem',
-        'small': '0.5rem',
-        'medium': '1rem',
-        'large': '2rem',
-        'huge': '4rem',
-      },
-      fontSize: {
-        'base': '1rem',
-        'lg': '1.25rem',
-        'xl': '1.5rem',
-        '2xl': '2rem',
-        '3xl': '2.5rem',
-      },
-      fontWeight: {
-        'light': 300,
-        'normal': 400,
-        'medium': 500,
-        'bold': 700,
-      },
-      borderRadius: {
-        'default': '0.5rem',
-        'full': '9999px',
-      },
-      boxShadow: {
-        'default': '0 4px 6px rgba(0, 0, 0, 0.1)',
-        'hover': '0 6px 8px rgba(0, 0, 0, 0.15)',
-      }
-    },
-  },
-  plugins: [],
-}
+      plugins: [],
+    }
