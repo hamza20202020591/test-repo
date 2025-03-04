@@ -1,26 +1,2 @@
-{
-      "name": "gym-website",
-      "private": true,
-      "version": "0.1.0",
-      "type": "module",
-      "scripts": {
-        "dev": "vite",
-        "build": "vite build",
-        "preview": "vite preview"
-      },
-      "dependencies": {
-        "lucide-react": "^0.344.0",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0"
-      },
-      "devDependencies": {
-        "@types/react": "^18.2.61",
-        "@types/react-dom": "^18.2.19",
-        "@vitejs/plugin-react": "^4.2.1",
-        "autoprefixer": "^10.4.19",
-        "postcss": "^8.4.35",
-        "tailwindcss": "^3.4.1",
-        "typescript": "^5.4.2",
-        "vite": "^5.3.2"
-      }
-    }
+SUPABASE_URL=https://exkraroayvekfsxwwdkz.supabase.co
+        SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV4a3Jhcm9heXZla2ZzeHd3ZGt6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzkyOTA2NjgsImV4cCI6MjA1NDg2NjY2OH0.G9NRZO3p8Z9QLYAvRQqwCzpdZ-aAdu8WjetfDoCvL3c
